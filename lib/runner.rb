@@ -1,9 +1,7 @@
 require './lib/vending_machine.rb'
 
-def initialize
-  @coins = Array.new(0)
+  @coins = []
   @machine = VendingMachine.new
-end
 
 def welcome
   "Hello, please enter a command:\n"
